@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="portfolio.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <div class="nav-left">
+            <li>
+              <a href="" class="nav-logo"
+                >Portfo<span class="span-text">lio.</span></a
+              >
+            </li>
+          </div>
+          <div class="nav-li topnav" id="myTopNav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#home">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+                <img src="1.png" alt="" />
+              </a>
+            </li>
+          </div>
+        </ul>
+      </nav>
+      <section id="home">
+        <div class="max-width">
+          <p class="Sec1text1">Hello, my name is</p>
+          <p class="Sec1text2">Oppong Nathaniel</p>
+          <p class="Sec1text3">
+            And I'm a <span id="job-text">Freelance Developer</span>
+          </p>
+          <button type="submit" class="btn">Hire Me</button>
+        </div>
+      </section>
+      <section id="about">
+        <header class="header">About Me</header>
+        <!-- <p class="subheader">who i am</p> -->
+        <div class="aboutSections">
+          <div class="column-left">
+            <img src="images/profile-1.jpeg" alt="" class="images" />
+          </div>
+          <div class="aboutContent">
+            <h1 class="heads">
+              I'm Nathaniel and I'm a <span class="span-text">Developer</span>
+            </h1>
+            <p class="content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut
+              voluptatum eveniet doloremque autem excepturi eaque, sit
+              laboriosam voluptatem nisi delectus. Facere explicabo hic minus
+              accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio
+              consequatur ipsam possimus veritatis, placeat, ab molestiae velit
+              inventore exercitationem consequuntur blanditiis omnis beatae.
+              Dolor iste excepturi ratione soluta quas culpa voluptatum
+              repudiandae harum non.
+            </p>
+            <button type="submit" class="contact-button about-btn">
+              Download CV
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="services">
+        <div class="main-service">
+          <header class="header">My services</header>
+          <div class="service-content">
+            <div class="service-sec1">
+              <h1 class="title">Web Design</h1>
+              <p class="service-actual-c">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
+                quia sunt, quasi quo illo enim.
+              </p>
+            </div>
+            <div class="service-sec2">
+              <h1 class="title">Graphic Design</h1>
+              <p class="service-actual-c">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
+                quia sunt, quasi quo illo enim.
+              </p>
+            </div>
+            <div class="service-sec3">
+              <h1 class="title">App Development</h1>
+              <p class="service-actual-c">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
+                quia sunt, quasi quo illo enim.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <header class="header">My skills</header>
+        <div class="main-skills">
+          <div class="skills-sec1">
+            <h1 class="title">My creative skills & abilities</h1>
+            <p class="skills-sec-p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, ratione error est recusandae consequatur, iusto illum
+              deleniti quidem impedit, quos quaerat quis minima sequi.
+              Cupiditate recusandae laudantium esse, harum animi aspernatur
+              quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem
+              illum. Ad delectus natus aut hic explicabo minus quod.
+            </p>
+            <button type="submit" class="contact-button">Read more</button>
+          </div>
+          <div class="skills-sec2">
+            <div class="bars">
+              <div class="bar1">
+                <span class="html">HTML</span>
+                <span>90%</span>
+              </div>
+              <!--Start Animated Progress Bar-->
+              <div class="animated-progress progress-blue">
+                <span data-progress="90"></span>
+              </div>
+              <!--End Animated Progress Bar-->
+            </div>
+
+            <div class="bars">
+              <span class="css">CSS</span>
+              <span>70%</span>
+              <!--Start Animated Progress Bar-->
+              <div class="animated-progress progress-green">
+                <span data-progress="70"></span>
+              </div>
+              <!--End Animated Progress Bar-->
+            </div>
+
+            <div class="bars">
+              <span class="JS">JS</span>
+              <span>50%</span>
+              <!--Start Animated Progress Bar-->
+              <div class="animated-progress progress-purple">
+                <span data-progress="50"></span>
+              </div>
+              <!--End Animated Progress Bar-->
+            </div>
+
+            <div class="bars">
+              <span class="Flutter">Flutter</span>
+              <span>60%</span>
+              <!--Start Animated Progress Bar-->
+              <div class="animated-progress progress-red">
+                <span data-progress="60"></span>
+              </div>
+              <!--End Animated Progress Bar-->
+            </div>
+
+            <div class="bars">
+              <span class="NodeJS">NodeJS</span>
+              <span>45%</span>
+              <!--Start Animated Progress Bar-->
+              <div class="animated-progress progress-yellow">
+                <span data-progress="45"></span>
+              </div>
+              <!--End Animated Progress Bar-->
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="teams">
+        <header class="header">My team</header>
+
+        <div class="team-sec">
+          <div class="teamsec1 teamsec">
+            <div class="teamsecC">
+              <img src="images/profile-1.jpeg" alt="" class="img" />
+              <h1 class="title1">Someone Name</h1>
+              <p class="team-sec-p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="teamsec2 teamsec">
+            <div class="teamsecC">
+              <img src="images/profile-1.jpeg" alt="" class="img" />
+              <h1 class="title1">Someone Name</h1>
+              <p class="team-sec-p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+          <div class="teamsec3 teamsec">
+            <div class="teamsecC">
+              <img src="images/profile-1.jpeg" alt="" class="img" />
+              <h1 class="title1">Someone Name</h1>
+              <p class="team-sec-p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <header class="header">Contact me</header>
+        <div class="contact-main">
+          <div class="contact1">
+            <h1 class="title">Get in Touch</h1>
+            <p class="contact-p">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos harum corporis fuga corrupti. Doloribus quis soluta
+              nesciunt veritatis vitae nobis?
+            </p>
+            <p class="contact-p">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos harum corporis fuga corrupti. Doloribus quis soluta
+              nesciunt veritatis vitae nobis?
+            </p>
+          </div>
+          <div class="contact2">
+            <h1 class="title">Message me</h1>
+            <form action="">
+              <div class="fields">
+                <div class="name field">
+                  <input type="text" name="Name" id="" placeholder="Name" />
+                </div>
+                <div class="email field">
+                  <input type="email" name="Email" id="" placeholder="Email" />
+                </div>
+              </div>
+              <div class="subject field">
+                <input type="text" name="Subject" id="" placeholder="Subject" />
+              </div>
+              <div class="textarea field">
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Message..."
+                ></textarea>
+              </div>
+              <button type="submit" class="contact-button">Send message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer>
+        Created by <span>Oppong Nathaniel</span> | 2022 All rights reserved.
+      </footer>
+    </div>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
